@@ -1,0 +1,14 @@
+{
+    "name": "Mi Curriculum Vitae",
+    "short_name": "CV",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#1CB698",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "img/favicon.png",
+            "sizes": "512x512"
+        }
+    ]
+}

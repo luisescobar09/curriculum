@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Curriculum VITAE</title>
+    <link rel="stylesheet" href="/curriculum/estilo.css">
+    <link rel="manifest" href="/curriculum/manifest.json">
+    <meta name="apple-mobile-web-app-status-bar" content="#1CB698"/>
+    <meta name="theme-color" content="#1CB698">
+    <link rel="icon" href="/curriculum/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#"><i class="fa-solid fa-house"></i></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">TÉCNICAS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+    
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="/curriculum/img/Tacuche.PNG" alt="">
+            </div>
+            <h1>JOSÉ LUIS ESCOBAR PÉREZ</h1>
+            <h2>Estudiante de Ingeniería en Desarrollo y Gestión de Software - Universidad Tecnológica de Tulancingo</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/joseluisescobar091001" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/JosLuis66036308" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/jos%C3%A9-luis-escobar-p%C3%A9rez-888285267" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/luisescobar09" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:escobarperezjoseluis9@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy José Luis Escobar Pérez.</span> Soy una persona que con el transcurso del tiempo encontró la pasión por la tecnología y todo lo que esto conlleva, talvez no tenga una gran experiencia en el ámbito laboral, pero acepto el reto, daré lo mejor de mi desde el primer día que comiencen mis labores para así cumplir las metas trazadas logrando un aprendizaje satisfactorio y poner en alto el nombre de la Universidad en la que estudio.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de Nacimiento</strong>
+                            09-10-2001
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            771-279-5866
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            escobarperezjoseluis9@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>Calle Lago Fontana, No. 208, Fracc. Bosques del Peñar, C.P 42094, Pachuca, Hidalgo.
+                        </li>
+                        <li>
+                            <strong>Ocupación</strong>
+                            <span>Estudiante</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-regular fa-futbol"></i>
+                            <span>FUTBOL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <span>DESARROLLO WEB</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-mobile-button"></i>
+                            <span>DESARROLLO MÓVIL</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="/curriculum/pdf/Curriculum.pdf" download="Curriculum Escobar Pérez José Luis">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>ANDROID</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades blandas</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestión de proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniero en Desarrollo y Gestión de Software</h4>
+                        <span class="casa">Universidad Tecnológica de Tulancingo</span>
+                        <span class="fecha">2019 - 2023</span>
+                        <p>Actualmente cursando el <strong>10°</strong> cuatrimestre, a un grado de la obtención de la Ingeniería.</p>
+                        <p>Obtención de título de <strong>T.S.U en Tecnologías de la Información, Área Desarrollo de Software Multiplataforma</strong>.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Técnico en Programación</h4>
+                        <span class="casa">CBTIS 8 PROF. "Humberto Cuevas Villegas" Mineral de la reforma, Hidalgo.</span>
+                        <span class="fecha">2016 - 2019</span>
+                        <p>Obtención de título de la carrera técnica en <strong>"Programación"</strong>.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Idiomas</h4>
+                        <span class="casa">Inglés - TOEFL ITP</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>Nivel <strong>B1</strong>.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <h3>Cursos</h3>
+                    <div class="item izq">
+                        <h4>Desarrollo Web en PHP, MVC, POO y MySQL - Tienda Virtual</h4>
+                        <span class="casa">Udemy</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Cursos "Capacítate para el empleo"</h4>
+                        <span class="casa">Capacítate para el empleo</span>
+                        <span class="fecha">2022</span>
+                        <p>Cursos realizados:</p>
+                        <ul>
+                            <li>Tester.</li>
+                            <li>Asesor de servicios de infraestructura en la nube.</li>
+                            <li>Manejo ético de la información y datos.</li>
+                        </ul>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>NDG Linux Essentials (Sistemas Operativos)</h4>
+                        <span class="casa">Cisco Partner</span>
+                        <span class="fecha">2021</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Principios básicos de routing y switching (Interconexión de Redes)</h4>
+                        <span class="casa">Cisco CCNA Routing and Switching</span>
+                        <span class="fecha">2020</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Introduction to Networks (Fundamentos de redes)</h4>
+                        <span class="casa">Cisco CCNA R&S</span>
+                        <span class="fecha">2020</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Proyectos</h3>
+                    <div class="item der">
+                        <h4>Sistema generador de horarios escolares</h4>
+                        <span class="casa">Desarrollo web</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Herramienta tecnológica que permite automatizar la elaboración de los mismos de forma autónoma y precisa para Universidades Tecnológicas.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Hackathon UTEC 2022</h4>
+                        <span class="casa">Hackathon</span>
+                        <span class="fecha">2022</span>
+                        <p>Participación en el desarrollo de un aplicación web que automatice el proceso de llenado de las hojas de enfermera.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>App Ejercicio</h4>
+                        <span class="casa">Wear OS App - Companion Mobile App</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Aplicación para WearOS con rutinas de ejercicio, medición de datos mediante sensores, aplicación para dispositivos Android como complementaria para datos estadísticos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>COMUNIDAD NT'AXI</h4>
+                        <span class="casa">Proyecto Integrador</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Desarrollo de un contenedor con tecnología IoT, aplicación web y chabot que automatizarán el monitoreo y recolección de residuos sólidos en el municipio de Tulancingo, Hidalgo (participación en <strong>CONIES 2022</strong>  Coatzacoalcos, Veracruz como proyecto social).</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Chatbot</h4>
+                        <span class="casa">Estadía TSU</span>
+                        <span class="fecha">2021</span>
+                        <p>Desarrollo de un chabot para la atención del cliente de la empresa desarrollado con Rasa Chatbot, comunicación con API a una aplicación web.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Chatbot</h4>
+                        <span class="casa">Bot en Telegram</span>
+                        <span class="fecha">2021</span>
+                        <p>Bot que identifica señales de transito mediante imágenes y características de mamíferos y reptiles mediante texto.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Consumo de API's</h4>
+                        <span class="casa">Score soccer, books research, zodiacos</span>
+                        <span class="fecha">2021</span>
+                        <p>Aplicaciones web desarrolladas para consumir API's de tipo REST.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>E-commerce</h4>
+                        <span class="casa">Tienda en línea - Refaccionaria en línea</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>Aplicaciones web.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>HABILIDADES TÉCNICAS</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <ul>
+                        <li>
+                            <h3><strong>Lenguajes de programación:</strong> Python, PHP, C++, Dart, Kotlin. JavaScript.</h3> 
+                        </li>
+                        <li>
+                            <h3><strong>Lenguajes de maquetado:</strong> HTML, CSS.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>Bases de Datos relacionales:</strong> MySQL, PostgreSQL.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>Bases de Datos no relacionales:</strong> MongoDB, Firebase Database.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>Desarrollo Móvil:</strong> Android Studio, Flutter, React Native, Compose.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>Web frameworks:</strong> Web.py, Django, Angular, React.js, FastAPI.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>Desarrollo de Bots:</strong> Telegram.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>Desarrollo de Chabot:</strong> Rasa Chabot, whatsapp-web.js.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>Plataformas para AI:</strong> Teachable Machine, MachineLearning for Kids.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>Análisis de datos:</strong> Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn.</h3>
+                        </li>
+                        <li><h3><strong>Hardware libre:</strong> Arduino.</h3></li>
+                        <li>
+                            <h3><strong>Plataformas para educación:</strong> Moodle.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>Plataformas para e-commerce:</strong> Prestashop.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>Sistemas Operativos:</strong> Microsoft Windows, GNU Linux.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>IDE's de desarrollo:</strong> Android Studio, VS Code, Replit, Gitpod.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>Control de versiones Git: </strong>GitHub.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>Ofimática:</strong> Microsoft Office, Libre Office, Google.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>Software de diseño:</strong> Adobe Ilustrator, Photoshop.</h3>
+                        </li>
+                        <li>
+                            <h3><strong>Soporte técnico:</strong> Mantenimiento de equipos de computo, instalación y configuración de S.O, aplicaciones.</h3>
+                        </li>
+
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="/curriculum/img/hack1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Hackathon UTEC 2022</h3>
+                        <p>Desarrollo</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/curriculum/img/hack2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Hackathon UTEC 2022</h3>
+                        <p>Prototipo</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/curriculum/img/hack3.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Hackathon UTEC 2022</h3>
+                        <p>Prototipo</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="/curriculum/img/ntaxi1.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Comunidad Nt'axi</h3>
+                        <p>Diseño</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/curriculum/img/ntaxi2.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Comunidad Nt'axi</h3>
+                        <p>Desarrollo</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/curriculum/img/ntaxi3.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Comunidad Nt'axi</h3>
+                        <p>Desarrollo</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="/curriculum/img/ntaxi4.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Comunidad Nt'axi</h3>
+                        <p>Desarrollo</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/curriculum/img/ntaxi5.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Comunidad Nt'axi</h3>
+                        <p>Implemetación</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/curriculum/img/ntaxi6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Comunidad Nt'axi</h3>
+                        <p>Presentación CONIES 2022</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="/curriculum/img/curso1.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Cursos</h3>
+                        <p>Manejo ético de la información y datos</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/curriculum/img/curso2.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Cursos</h3>
+                        <p>CCNA Routing and Switching: Principios básicos de routing y switching</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/curriculum/img/curso3.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Cursos</h3>
+                        <p>Asesor de servicios de infraestructura en la nube</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/joseluisescobar091001" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/JosLuis66036308" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/jos%C3%A9-luis-escobar-p%C3%A9rez-888285267" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/luisescobar09" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:escobarperezjoseluis9@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script src="/curriculum/ui.js"></script>
+    <script src="/curriculum/js/app.js"></script>
+</body>
+</html>
