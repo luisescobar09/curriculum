@@ -1,8 +1,8 @@
 {
     "name": "Mi Curriculum Vitae",
     "short_name": "CV",
-    "id": "/curriculum/",
-    "start_url": "/curriculum/index.html",
+    "id": "/",
+    "start_url": "index.html",
     "display": "standalone",
     "background_color": "#1CB698",
     "orientation": "portrait-primary",
