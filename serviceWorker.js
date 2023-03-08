@@ -22,7 +22,7 @@ self.addEventListener('install', function(event) {
         cache.add('/img/ntaxi5.PNG');
         cache.add('/img/ntaxi6.jpg');
         cache.add('/img/Tacuche.PNG');
-        cache.add('/pdf/curriculum.pdf');
+        cache.add('/pdf/Curriculum.pdf');
       })
     );
   });
