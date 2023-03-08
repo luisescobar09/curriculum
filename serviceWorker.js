@@ -1,28 +1,3 @@
-const assets = [
-    "/",
-    "/index.html",
-    "/estilo.css",
-    "/js/app.js",
-    "/ui.js",
-    "/img/contact_bg.png",
-    "/img/fondo.jpg",
-    "/img/favicon.png",
-    "/img/curso1.PNG",
-    "/img/curso2.PNG",
-    "/img/curso3.PNG",
-    "/img/hack1.jpg",
-    "/img/hack2.jpg",
-    "/img/hack3.PNG",
-    "/img/ntaxi1.PNG",
-    "/img/ntaxi2.PNG",
-    "/img/ntaxi3.PNG",
-    "/img/ntaxi4.PNG",
-    "/img/ntaxi5.PNG",
-    "/img/ntaxi6.jpg",
-    "/img/Tacuche.PNG",
-    "/pdf/curriculum.pdf"
-]
-
 self.addEventListener('install', function(event) {
     event.waitUntil(
       caches.open('curriculum-vitae-site-v1').then(function(cache) {
